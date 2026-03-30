@@ -22,8 +22,8 @@ export default function ButtonAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Feedback
           </Typography>
-          <Button component={Link} to = "/" color="inherit">Dashboard</Button>
-          <Button component={Link} to = "/add" color="inherit">AddFeedback</Button>
+          <Button component={Link} to ="/" color="inherit">Dashboard</Button>
+          <Button component={Link} to ="/add" color="inherit">AddFeedback</Button>
         </Toolbar>
       </AppBar>
     </Box>
